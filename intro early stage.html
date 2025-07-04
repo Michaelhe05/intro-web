@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Michael Henao | Veteran, Software Engineer-in-Progress, and Creative Technologist" />
+  <title>Michael Henao | Welcome</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1508264165352-258db2ebd59b?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+    header {
+      padding: 4rem 2rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      animation: fadeInDown 1s ease-in-out;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0); }
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.2rem;
+      animation: float 3s ease-in-out infinite;
+    }
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 0;
+    }
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1.5rem;
+      border-radius: 1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    section:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 15px rgba(0, 216, 255, 0.3);
+    }
+    h2 {
+      border-bottom: 1px solid #555;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "\2022";
+      color: #00d8ff;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    a {
+      color: #00d8ff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #1ecbe1;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 1rem;
+    }
+    .icons img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+    }
+    .icons img:hover {
+      transform: scale(1.2);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Michael Henao</h1>
+    <p class="subtitle">Veteran | Aspiring Software Engineer | Creative Technologist</p>
+    <div class="icons">
+      <a href="mailto:michaelhe05@gmail.com" title="Email"><img src="https://img.icons8.com/fluency/48/000000/apple-mail.png" alt="email" /></a>
+      <a href="https://www.linkedin.com/in/michael-henao-9934b5353" target="_blank" title="LinkedIn"><img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" /></a>
+      <a href="#" title="GitHub"><img src="https://img.icons8.com/ios-glyphs/48/ffffff/github.png" alt="GitHub" /></a>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Hello, I'm Michael Henao — a proud U.S. Air Force veteran currently transitioning into the dynamic world of software engineering. With hands-on experience in electrical systems and a deep curiosity for technology, I am blending my military discipline with modern software development skills. I'm currently pursuing a B.S. in Computer Science, self-teaching Python and JavaScript, and exploring the intersection of tech, creativity, and purpose.</p>
+    </section>
+    <section>
+      <h2>What I Do</h2>
+      <ul>
+        <li>🎓 CS Student at UMGC</li>
+        <li>🔌 Former Facilities Electrician, USAF</li>
+        <li>💻 Exploring software engineering with a focus on AI and practical projects</li>
+        <li>📈 Passionate about clean, efficient code and impactful design</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Current Projects</h2>
+      <ul>
+        <li>Developing backend systems with Java and Spring Boot</li>
+        <li>Building interactive UIs using React and TailwindCSS</li>
+        <li>Experimenting with Python-based automation and AI tools</li>
+        <li>Crafting personal web apps and community-based projects</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <a href="https://your-live-demo-link1.com" target="_blank"><img src="https://source.unsplash.com/400x300/?code" alt="Project 1" /></a>
+        <a href="https://your-live-demo-link2.com" target="_blank"><img src="https://source.unsplash.com/400x300/?technology" alt="Project 2" /></a>
+        <a href="https://your-live-demo-link3.com" target="_blank"><img src="https://source.unsplash.com/400x300/?laptop" alt="Project 3" /></a>
+        <a href="https://your-live-demo-link4.com" target="_blank"><img src="https://source.unsplash.com/400x300/?app" alt="Project 4" /></a>
+      </div>
+    </section>
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Want to collaborate or chat? Reach out via <a href="mailto:michaelhe05@gmail.com">email</a> or connect on <a href="https://www.linkedin.com/in/michael-henao-9934b5353" target="_blank">LinkedIn</a>.</p>
+    </section>
+  </main>
+  <footer>&copy; 2025 Michael Henao. All rights reserved.</footer>
+</body>
+</html>
